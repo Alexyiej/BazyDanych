@@ -1,0 +1,132 @@
+.Products{
+    width: 100%;
+    height: 100vh;
+    border-bottom: 10px solid black;
+    display: flex;
+    gap: 5%;
+} 
+.Page_Pos{
+    width: 60%;
+    height: 100%;
+}
+.Products_Header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffff;
+    font-size: 1.7rem;
+}
+.Products_container {
+    background-color: black;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-gap: 10px; 
+    -webkit-box-shadow: 15px 15px 24px 7px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 15px 15px 24px 7px rgba(0, 0, 0, 1);
+    box-shadow: 15px 15px 24px 7px rgba(0, 0, 0, 1);
+    background-color: black;
+    margin-bottom: 100px;
+  }
+.Product{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+.Product img{
+    width: 107px;
+    height: 142px;
+    margin-top: 10px;
+    border-radius: 360%;
+}
+.Product span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+.Product_button{
+    width: 80%;
+    height: 15%;
+    border: none;
+    border-radius: 12px;
+    background-color: black;
+    color: #ffff;
+    font-size: 1rem;
+    font-weight: 750;
+    margin-bottom: 25px;
+}
+button:hover{
+    background-color: rgb(2, 1, 31);
+    color: white;
+    cursor: url('/assets/cursor.png'), auto;
+}
+button:active{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transform: translateY(1px);
+}
+
+.Scroll_Bar {
+    width: 15%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 15px 15px 24px 2px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 15px 15px 24px 2px rgba(0, 0, 0, 1);
+    box-shadow: 15px 15px 24px 2px rgba(0, 0, 0, 1);
+  }
+.Scroll_Bar_Button_Container {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8%;
+}
+.Scroll_Bar_Button_Container button{
+    background-color: rgb(4, 4, 58);
+    border: none;
+    color: #ffff;
+    font-size: 1rem;
+    font-weight: 670;
+    width: 100%;
+    height: 20%;
+    border-radius: 12px;
+    -webkit-box-shadow: 8px 8px 24px 2px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 8px 8px 24px 2px rgba(0, 0, 0, 1);
+    box-shadow: 8px 8px 24px 2px rgba(0, 0, 0, 1);
+}
+.Scroll_Bar_Button_Container a{
+    background-color: rgb(4, 4, 58);
+    border: none;
+    color: #ffff;
+    font-size: 1rem;
+    font-weight: 670;
+    width: 100%;
+    height: 20%;
+    border-radius: 12px;
+}
+.Scroll_Bar_Button_Container a button{
+    background-color: rgb(4, 4, 58);
+    border: none;
+    color: #ffff;
+    font-size: 1rem;
+    font-weight: 670;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    -webkit-box-shadow: 8px 8px 24px 2px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 8px 8px 24px 2px rgba(0, 0, 0, 1);
+    box-shadow: 8px 8px 24px 2px rgba(0, 0, 0, 1);
+}
