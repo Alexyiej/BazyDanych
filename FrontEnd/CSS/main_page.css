@@ -1,0 +1,81 @@
+﻿body{
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#Main_Page_Container{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Main_Page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15%;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-bottom: solid black 10px;
+}
+.Main_Page_Container{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Main_Page_Container span{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Main_Page_Container span h1{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 750;
+
+}
+.Main_Page_Container span p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 750;
+    font-family: 'Yuji Hentaigana Akebono', cursive;
+}
+.Main_Page_Button{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Main_Page_Button a{
+    width: 15%;
+    height: 120%;
+    border-radius: 8px;
+}
+.Main_Page_Button a button {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(42 79 150);
+    border:none;
+    color: #ffff;
+    font-weight: 650;
+    font-size: 1.3rem;
+    border-radius: 8px;
+    -webkit-box-shadow: 8px 8px 24px 2px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 8px 8px 24px 2px rgba(0, 0, 0, 1);
+    box-shadow: 8px 8px 24px 2px rgba(0, 0, 0, 1);
+}
+a:hover{
+    cursor: pointer;
+}

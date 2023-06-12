@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/CSS/header.css">
+        <link rel="stylesheet" href="/CSS/koszyk.css">
+        <link rel="stylesheet" href="/CSS/global_style.css">
+    </head>
+    <style>
+    </style>
+    <body>
+        <header>
+            <div class="Logo">
+                <img src="/assets/LogoBD.png" alt="Logo">
+            </div>
+            <div id="Header_Menu">
+                <a href="/Main.html">
+                    <button>Home</button> 
+                </a>
+                <a>
+                    <button>Profile</button>
+                </a>
+            </div>
+            <div id="loginButtonDiv">
+                <a href="/subpages/Login_Page.html">
+                    <button>Login</button>
+                </a>
+            </div>
+        </header>
+        <container id="cart_page">
+            <div id="cart_container">
+                <div id="cart">
+                    <div id="cart_items"></div>
+                    <h2 id="totalPrice">Price:</h2>
+                    <a href="/subpages/payment_details.html">
+                        <button id="clearCartButton">
+                            Payment
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </container>
+    </body>
+    <script src="/Script/auth.js"></script>
+    <script src="/Script/main.js"></script>
+    <script src="/Script/koszyk.js"></script>
+</html>

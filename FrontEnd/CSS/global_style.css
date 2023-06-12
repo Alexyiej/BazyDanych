@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+a button:hover{
+    background-color: rgb(15, 12, 97);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(15, 12, 97);
+    color: white;
+    cursor: pointer;
+}
+a:hover{
+    background-color: rgb(15, 12, 97);
+    color: white;
+    cursor: pointer;
+}
+a:active{
+    background-color: rgb(37, 71, 134);
+}
+a button:active{
+    background-color: rgb(37, 71, 134);
+    color: white;
+    cursor: pointer;
+    transform: translateY(1px);
+}
